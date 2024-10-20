@@ -1,0 +1,54 @@
+
+
+@font-face {
+    font-family: "Unbounded", sans-serif;
+    src: url('../fonts/Unbounded-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Unbounded", sans-serif;
+    src: url('../fonts/Unbounded-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Unbounded", sans-serif;
+    src: url('../fonts/Unbounded-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Unbounded", sans-serif;
+    src: url('../fonts/Unbounded-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Unbounded", sans-serif;
+    src: url('../fonts/Unbounded-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+$font: "Unbounded", sans-serif;
+
+$accent: #7027E2;
+$dark: #2A2F36;
+$light:#ffffff;
+$gray:#EDEDED;
+
+$tr: .3s;
+
+body {
+    font-family: $font;
+    font-weight: 600;
+}
+
+a {
+    color: $dark;
+    transition: $tr;
+}
+
+a:hover {
+    color: $accent;
+}
